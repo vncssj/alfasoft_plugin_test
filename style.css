@@ -1,0 +1,85 @@
+.alfasoft-content>* {
+    box-sizing: border-box;
+}
+
+.alfasoft-content {
+    max-width: calc(100% - 20px);
+    min-height: 300px;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top>a,
+.link {
+    text-decoration: none;
+    background-color: #2271b1;
+    padding: 5px 10px;
+    color: #ffffff;
+    height: min-content;
+}
+
+.top>a:hover,
+.link:hover {
+    background-color: #ffffff;
+    color: #2271b1;
+    border: 1px solid #cccccc;
+}
+
+
+.alfasoft-content table,
+.alfasoft-content th,
+.alfasoft-content td,
+.alfasoft-content tr {
+    border: 1px solid #cccccc;
+    height: 30px;
+    box-sizing: border-box;
+}
+
+.alfasoft-content table {
+    width: 50%;
+}
+
+.alfasoft-content form {
+    width: 300px;
+    padding: 20px;
+}
+
+.alfasoft-content form input,
+.alfasoft-content form button {
+    margin: 10px 0;
+}
+
+.alfasoft-content form>div>label {
+    position: absolute;
+    background-color: #ffffff;
+    padding: 2px;
+    margin-left: 7px;
+    margin-top: -2px;
+}
+
+.alfasoft-content form>div>input,
+.alfasoft-content form>div>input[type="text"] {
+    padding: 0 8px;
+    line-height: 2;
+    min-height: 30px;
+    padding-top: 5px !important;
+}
+
+.alfasoft-content form button {
+    padding: 5px 10px;
+    background-color: #2271b1;
+    color: #ffffff;
+    height: min-content;
+    border: 0;
+}
+
+.error {
+    text-align: center;
+    color: #e35959;
+    display: none;
+}
